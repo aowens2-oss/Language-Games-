@@ -1,0 +1,28 @@
+function parseTimeToSeconds(timeStr){
+  const parts = timeStr.split(':').map(s=>s.trim());
+  if(parts.length===1){return Number(parts[0])||0}
+  if(parts.length===2){return Number(parts[0])*60 + Number(parts[1])}
+  if(parts.length===3){return Number(parts[0])*3600 + Number(parts[1])*60 + Number(parts[2])}
+  return 0
+}
+
+function formatSecondsToPace(secPerKm){
+  if(!isFinite(secPerKm)||secPerKm<=0) return '—'
+  const m = Math.floor(secPerKm/60);
+  const s = Math.round(secPerKm%60).toString().padStart(2,'0');
+  return `${m}:${s}`
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  const form = document.getElementById('paceForm');
+  const result = document.getElementById('result');
+  form.addEventListener('submit', e=>{
+    e.preventDefault();
+    const d = parseFloat(document.getElementById('distance').value);
+    const t = document.getElementById('time').value;
+    const totalSec = parseTimeToSeconds(t);
+    if(!d || totalSec<=0){ result.textContent = 'Please enter valid distance and time.'; return }
+    const secPerKm = totalSec / d;
+    result.textContent = `Pace: ${formatSecondsToPace(secPerKm)} per km (${Math.round(secPerKm*100)/100} sec/km)`;
+  });
+});

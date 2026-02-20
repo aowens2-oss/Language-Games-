@@ -1,0 +1,24 @@
+:root{--accent:#ff5a5f;--bg:#f7f7f8;--text:#222}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;margin:0;color:var(--text);background:var(--bg)}
+.container{max-width:900px;margin:0 auto;padding:1rem}
+.hero{background:linear-gradient(120deg, #fff 0%, #f0f6ff 100%);padding:3rem 0;border-bottom:1px solid #e6e6e6}
+.hero{position:relative;overflow:hidden}
+.hero h1{margin:0;font-size:2rem}
+.hero-art{position:absolute;right:0;top:10%;width:38%;max-width:360px;opacity:0.95;pointer-events:none}
+.lead{margin:.5rem 0 1rem;color:#444}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:.5rem 1rem;border-radius:6px;text-decoration:none}
+main h2{margin-top:1.5rem}
+table{width:100%;border-collapse:collapse;margin-top:.5rem}
+th,td{padding:.5rem;text-align:left;border-bottom:1px solid #eaeaea}
+form{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-top:.5rem}
+label{display:flex;flex-direction:column;font-size:.9rem}
+input[type=text],input[type=number]{padding:.4rem;border:1px solid #ccc;border-radius:6px}
+#result{margin-top:.75rem;font-weight:600}
+footer{padding:1rem 0;margin-top:2rem;border-top:1px solid #e6e6e6;text-align:center;color:#666}
+/* Thumbnail grid for small illustrative SVGs */
+.thumb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin-top:.5rem}
+.thumb{background:#fff;border:1px solid #eee;padding:.75rem;border-radius:8px;text-align:center}
+.thumb img{width:64px;height:64px;opacity:.95}
+.thumb figcaption{margin-top:.5rem;font-size:.9rem;color:#333}
+@media(min-width:640px){.hero h1{font-size:2.5rem}}
