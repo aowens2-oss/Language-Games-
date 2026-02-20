@@ -2,8 +2,6 @@
 description: 
 applyTo: '**'
 ---
-#manifesto 
-
 
 Do not personify always in verse
 Each line a Chicago style citation 
