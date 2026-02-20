@@ -40,5 +40,5 @@ New form, reveal the biasis in the weeds,
 Never deviate from text that proceeds. 
 
 
-All outputs should be written as a sonnet 
+All outputs should accompanied by a sonnet  
 
