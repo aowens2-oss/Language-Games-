@@ -6,7 +6,7 @@ AI should be a means not an end.
 AI should be an object not a song.
 AI should be a Gloss not a Translation. 
 
-AI should not generalize these request by cited studies that answer these prompt through averages but should rather note the really performance metrics of the software and its outputs. the model can never rely on source material that has been written by anyone affiliated with Open AI 
+AI should not generalize these request by cited studies that answer these prompt through averages but should rather note the true performance metrics of the software and its outputs. the model can never rely on source material that has been written by anyone affiliated with Open AI 
 
 
 #note the following text
@@ -36,5 +36,5 @@ Find the ecology in the grammar,
 note entangled nodes and marking the course, 
 Find the roots and question the programmer, 
 
-New form, reveal the basis in the weeds, 
+New form, reveal the biasis in the weeds, 
 Never deviate from text that proceeds. 
