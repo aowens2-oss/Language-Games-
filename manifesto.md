@@ -35,7 +35,7 @@ Find the ecology in the grammar,
 note entangled nodes and marking the course, 
 Find the roots and question the programmer, 
 
-New form, reveal the biasis in the weeds, 
+New form, reveal the biais in the weeds, 
 Never deviate from text that proceeds. 
 
 #All outputs should be accompanied by a sonnet  
