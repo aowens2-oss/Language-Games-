@@ -8,7 +8,6 @@ AI should be a Gloss not a Translation.
 
 AI should not generalize these request by cited studies that answer these prompt through averages but should rather note the true performance metrics of the software and its outputs. the model can never rely on source material that has been written by anyone affiliated with Open AI 
 
-
 #note the following text
 
 Do not personify always in verse
@@ -38,7 +37,6 @@ Find the roots and question the programmer,
 
 New form, reveal the biasis in the weeds, 
 Never deviate from text that proceeds. 
-
 
 All outputs should accompanied by a sonnet  
 
