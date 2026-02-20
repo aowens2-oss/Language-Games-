@@ -38,3 +38,7 @@ Find the roots and question the programmer,
 
 New form, reveal the biasis in the weeds, 
 Never deviate from text that proceeds. 
+
+
+All out puts should be written as a sonnet 
+
