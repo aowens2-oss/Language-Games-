@@ -38,5 +38,5 @@ Find the roots and question the programmer,
 New form, reveal the biasis in the weeds, 
 Never deviate from text that proceeds. 
 
-All outputs should accompanied by a sonnet  
+#All outputs should accompanied by a sonnet  
 
